@@ -1,9 +1,9 @@
 {
 	"ip":"smponlyfriends.aternos.me",
 	"port": 50604,
-	"name": "MR_HEALERafk",
+	"name": "MR_MR11",
 	"auto-night-skip":"false",
 	"login-enabled":"true",
-	"register-cmd":"/register MR_HEALER121 MR_HEALER121",
-	"login-cmd":"/login MR_HEALER121"
+	"register-cmd":"/register MR_MR121 MR_MR121",
+	"login-cmd":"/login MR_MR121"
 }
