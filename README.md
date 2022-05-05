@@ -31,5 +31,12 @@
 3. npm i 
 4. npm start
 
+### Bot Joined But Not Moving / Not Getting Damage 
+1. Change Your Register Command to Login Command `config.json`
+```
+"register-cmd":"/login MR_MR121",
+"login-cmd":"/login MR_MR121"
+````
+2. Try Restarting Bot Server
 
 
