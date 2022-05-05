@@ -55,10 +55,10 @@ function task(i) {
 
     setTimeout(function () {
         if (first == true) {
-            bot.chat("Subscribe To Easy Gamer : https://www.youtube.com/channel/UCk575VDlrCsv1Gy2XZQ1bSA")
+            bot.chat("Support the Project https://github.com/healer-op/AternosAfkBot staring it")
             first = false;
         } else {
-            bot.chat("Subscribe To MannuG : https://www.youtube.com/channel/UCSZHRnBue50ImBKeR6k6eDg")
+            bot.chat("Support the Project https://github.com/healer-op/AternosAfkBot staring it")
             first = true;
         }
     }, 3600000 * i);
@@ -196,6 +196,15 @@ bot.on('chat', (username, message) => {
         if (message === `i am fine`) {
             bot.chat(`Oh lets Take The Finest One For A Coffee Today`)
         }
+    }
+
+    if (message === `${bot.username} help` || message === `${bot.username} Help` || message === `help ${bot.username}` || message === `Help ${bot.username}`) {
+        bot.chat(`hi ${username} Here Are my commands`)
+        bot.chat(`===================================`)
+        bot.chat(`figth me myname`)
+        bot.chat(`Hi myname`)
+        bot.chat(`==================================`)
+        bot.chat(`Made by https://github.com/healer-op/AternosAfkBot`)
     }
 
     if (message === `Hi ${bot.username} i am a girl`) {
