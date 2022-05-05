@@ -20,7 +20,7 @@
 - [x] Hi Ping (Hi BotName)
 
 
-### Required Plugins
+### Required Plugins (First Dont Add them if error then add)
 1. GeyserMc 
 2. ViaVersion 
 3. ViaBackWards 
