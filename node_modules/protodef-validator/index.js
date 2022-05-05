@@ -23,6 +23,7 @@ class Validator {
     this.addTypes(require("./ProtoDef/schemas/utils.json"));
     this.addTypes(require("./ProtoDef/schemas/structures.json"));
     this.addTypes(require("./ProtoDef/schemas/conditional.json"));
+    this.addTypes(require("./ProtoDef/schemas/primitives.json"));
   }
 
   addTypes(schemas) {

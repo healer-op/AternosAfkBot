@@ -1,0 +1,45 @@
+{
+  "name": "mineflayer-armor-manager",
+  "version": "1.4.2",
+  "description": "Manage armor automatically with various configs",
+  "main": "./dist/index.js",
+  "scripts": {
+    "clear": "rm -rf ./dist",
+    "build": "yarn clear && tsc",
+    "test": "tsc",
+    "format": "prettier --write ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G07cha/MineflayerArmorManager.git"
+  },
+  "keywords": [
+    "mineflayer",
+    "minecraft",
+    "armor"
+  ],
+  "author": "G07cha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/G07cha/MineflayerArmorManager/issues"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "homepage": "https://github.com/G07cha/MineflayerArmorManager#readme",
+  "devDependencies": {
+    "mineflayer": "^3.0.0",
+    "mocha": "^9.0.0",
+    "prettier": "^2.0.5",
+    "prismarine-item": "^1.5.0",
+    "prismarine-windows": "^2.1.0",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "minecraft-data": "^2.65.0",
+    "rambda": "^6.5.3"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}

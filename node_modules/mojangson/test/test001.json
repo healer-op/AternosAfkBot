@@ -1,89 +1,260 @@
 {
-  "id": "minecraft:diamond_pickaxe",
-  "tag": {
-    "display": {
-      "Name": {
-        "text": "Кирка хлебушка"
-      },
-      "Lore": [
-        {
-          "text": "MLG PICKAXE DORITOS 420NOSCOPEBLAZEIT"
-        },
-        {
-          "text": "OH BABY A TRIPLE MOM GET THE CAMERA"
-        }
-      ]
+  "type": "compound",
+  "value": {
+    "id": {
+      "value": "minecraft:diamond_pickaxe",
+      "type": "string"
     },
-    "Enchantments": [
-      {
-        "id": "minecraft:efficiency",
-        "lvl": 20
-      },
-      {
-        "id": "minecraft:fire_aspect",
-        "lvl": 2
-      },
-      {
-        "id": "minecraft:fortune",
-        "lvl": 10
-      },
-      {
-        "id": "minecraft:knockback",
-        "lvl": 16959
-      },
-      {
-        "id": "minecraft:looting",
-        "lvl": 10
-      },
-      {
-        "id": "minecraft:sharpness",
-        "lvl": 16959
-      },
-      {
-        "id": "minecraft:silk_touch",
-        "lvl": 1
-      },
-      {
-        "id": "minecraft:smite",
-        "lvl": 16959
+    "tag": {
+      "type": "compound",
+      "value": {
+        "display": {
+          "type": "compound",
+          "value": {
+            "Name": {
+              "type": "compound",
+              "value": {
+                "text": {
+                  "value": "Кирка хлебушка",
+                  "type": "string"
+                }
+              }
+            },
+            "Lore": {
+              "type": "list",
+              "value": {
+                "type": "compound",
+                "value": [
+                  {
+                    "text": {
+                      "value": "MLG PICKAXE DORITOS 420NOSCOPEBLAZEIT",
+                      "type": "string"
+                    }
+                  },
+                  {
+                    "text": {
+                      "value": "OH BABY A TRIPLE MOM GET THE CAMERA",
+                      "type": "string"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Enchantments": {
+          "type": "list",
+          "value": {
+            "type": "compound",
+            "value": [
+              {
+                "id": {
+                  "value": "minecraft:efficiency",
+                  "type": "string"
+                },
+                "lvl": {
+                  "value": 20,
+                  "type": "short"
+                }
+              },
+              {
+                "id": {
+                  "value": "minecraft:fire_aspect",
+                  "type": "string"
+                },
+                "lvl": {
+                  "value": 2,
+                  "type": "short"
+                }
+              },
+              {
+                "id": {
+                  "value": "minecraft:fortune",
+                  "type": "string"
+                },
+                "lvl": {
+                  "value": 10,
+                  "type": "short"
+                }
+              },
+              {
+                "id": {
+                  "value": "minecraft:knockback",
+                  "type": "string"
+                },
+                "lvl": {
+                  "value": 16959,
+                  "type": "short"
+                }
+              },
+              {
+                "id": {
+                  "value": "minecraft:looting",
+                  "type": "string"
+                },
+                "lvl": {
+                  "value": 10,
+                  "type": "short"
+                }
+              },
+              {
+                "id": {
+                  "value": "minecraft:sharpness",
+                  "type": "string"
+                },
+                "lvl": {
+                  "value": 16959,
+                  "type": "short"
+                }
+              },
+              {
+                "id": {
+                  "value": "minecraft:silk_touch",
+                  "type": "string"
+                },
+                "lvl": {
+                  "value": 1,
+                  "type": "short"
+                }
+              },
+              {
+                "id": {
+                  "value": "minecraft:smite",
+                  "type": "string"
+                },
+                "lvl": {
+                  "value": 16959,
+                  "type": "short"
+                }
+              }
+            ]
+          }
+        },
+        "Unbreakable": {
+          "value": 1,
+          "type": "byte"
+        },
+        "Damage": {
+          "value": 0,
+          "type": "int"
+        },
+        "AttributeModifiers": {
+          "type": "list",
+          "value": {
+            "type": "compound",
+            "value": [
+              {
+                "Name": {
+                  "value": "generic.maxHealth",
+                  "type": "string"
+                },
+                "AttributeName": {
+                  "value": "generic.maxHealth",
+                  "type": "string"
+                },
+                "Operation": {
+                  "value": 0,
+                  "type": "int"
+                },
+                "UUIDMost": {
+                  "value": 0,
+                  "type": "long"
+                },
+                "UUIDLeast": {
+                  "value": 0,
+                  "type": "long"
+                },
+                "Amount": {
+                  "value": 20,
+                  "type": "double"
+                }
+              },
+              {
+                "Name": {
+                  "value": "generic.movementSpeed",
+                  "type": "string"
+                },
+                "AttributeName": {
+                  "value": "generic.movementSpeed",
+                  "type": "string"
+                },
+                "Operation": {
+                  "value": 0,
+                  "type": "int"
+                },
+                "UUIDMost": {
+                  "value": 0,
+                  "type": "long"
+                },
+                "UUIDLeast": {
+                  "value": 0,
+                  "type": "long"
+                },
+                "Amount": {
+                  "value": 2,
+                  "type": "double"
+                }
+              },
+              {
+                "Name": {
+                  "value": "generic.knockbackResistance",
+                  "type": "string"
+                },
+                "AttributeName": {
+                  "value": "generic.knockbackResistance",
+                  "type": "string"
+                },
+                "Operation": {
+                  "value": 0,
+                  "type": "int"
+                },
+                "UUIDMost": {
+                  "value": 0,
+                  "type": "long"
+                },
+                "UUIDLeast": {
+                  "value": 0,
+                  "type": "long"
+                },
+                "Amount": {
+                  "value": 0.2,
+                  "type": "double"
+                }
+              },
+              {
+                "Name": {
+                  "value": "generic.attackDamage",
+                  "type": "string"
+                },
+                "AttributeName": {
+                  "value": "generic.attackDamage",
+                  "type": "string"
+                },
+                "Operation": {
+                  "value": 0,
+                  "type": "int"
+                },
+                "UUIDMost": {
+                  "value": 0,
+                  "type": "long"
+                },
+                "UUIDLeast": {
+                  "value": 0,
+                  "type": "long"
+                },
+                "Amount": {
+                  "value": 0,
+                  "type": "double"
+                }
+              }
+            ]
+          }
+        }
       }
-    ],
-    "Unbreakable": 1,
-    "Damage": 0,
-    "AttributeModifiers": [
-      {
-        "Name": "generic.maxHealth",
-        "AttributeName": "generic.maxHealth",
-        "Operation": 0,
-        "UUIDMost": 0,
-        "UUIDLeast": 0,
-        "Amount": 20
-      },
-      {
-        "Name": "generic.movementSpeed",
-        "AttributeName": "generic.movementSpeed",
-        "Operation": 0,
-        "UUIDMost": 0,
-        "UUIDLeast": 0,
-        "Amount": 2
-      },
-      {
-        "Name": "generic.knockbackResistance",
-        "AttributeName": "generic.knockbackResistance",
-        "Operation": 0,
-        "UUIDMost": 0,
-        "UUIDLeast": 0,
-        "Amount": 0.2
-      },
-      {
-        "Name": "generic.attackDamage",
-        "AttributeName": "generic.attackDamage",
-        "Operation": 0,
-        "UUIDMost": 0,
-        "UUIDLeast": 0,
-        "Amount": 0
-      }
-    ]
-  },
-  "Count": 1
+    },
+    "Count": {
+      "value": 1,
+      "type": "byte"
+    }
+  }
 }
