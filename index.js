@@ -43,6 +43,8 @@ bot.on('login', function () {
     console.log("Trying to login")
     if (data["login-enabled"] == "true") {
         bot.chat(data["login-cmd"])
+        setTimeout(bot.chat(data["register-cmd"]), 2000);
+       
     }
     for (let i = 0; i < 10; i++) {
         task(i);
