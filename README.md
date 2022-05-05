@@ -3,6 +3,23 @@
 
 ### Star The Repo if You Play Minecraft
 
+### Star Rewards
+- [ ] 10 Stars = KeepAlive.js (best for replit users)
+- [ ] 25 Stars = Chat Support (More Chat Features)
+- [ ] 40 Stars = SeeInventory (express Url To See invertory)
+- [ ] 50 Stars = DiscordBotSupport (Send Messages/Commands from Discord to Bot)
+
+### Features
+- [ ] Help Collecting Item For Diamond
+- [ ] Sleep
+- [ ] Auto Eat 
+- [x] Armor Manager (Manage Armor)
+- [x] PvP (fight me BotName)
+- [x] Guard (guard BotName)
+- [x] Help (Help BotName)
+- [x] Hi Ping (Hi BotName)
+
+
 ### Required Plugins
 1. GeyserMc 
 2. ViaVersion 
@@ -14,8 +31,5 @@
 3. npm i 
 4. npm start
 
-### Star Rewards
-- [ ] 10 Stars = KeepAlive.js (best for replit users)
-- [ ] 25 Stars = Chat Support (More Chat Features)
-- [ ] 40 Stars = SeeInventory (express Url To See invertory)
-- [ ] 50 Stars = DiscordBotSupport (Send Messages/Commands from Discord to Bot)
+
+
